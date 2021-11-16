@@ -1,0 +1,54 @@
+body {
+    background-color: #ffead5;
+    padding-top: 10px;
+}
+
+.grid-container {
+    width: 900px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.head {
+    background-color: #ff8800;
+    color: black;
+    padding: 3%;
+    font-size: 125%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+hr {
+    margin: 3%;
+}
+
+form {
+    margin: 3%;
+}
+
+input[name=name], input[name=age], select[name=course], select[name=level] {
+    border-radius: 5px;
+}
+
+table {
+    font-size: small;
+}
+
+th {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+input[type=radio] {
+    display: block;
+    margin: auto;
+}
+
